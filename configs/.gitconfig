@@ -1,0 +1,36 @@
+#
+# ~/.gitconfig
+#
+
+[user]
+  name = "Brad Sorour"
+  email = "brad.sorour@gmail.com"
+
+[alias]
+  st = "status --short --branch"
+  br = "branch --all --verbose"
+  amend = "commit --amend --no-edit"
+
+[commit]
+  gpgsign = true
+
+[core]
+  editor = "nano --rcfile $NANO_RC_FILE"
+  excludesfile = "$HOME/.gitignore"
+
+[gpg]
+  program = gpg
+
+[help]
+  autocorrect = 1
+
+[init]
+  defaultbranch = main
+  templateDir = "~/.git-template"
+
+[push]
+  autosetupremote = true
+  default = upstream
+
+[tag]
+  gpgsign = true
