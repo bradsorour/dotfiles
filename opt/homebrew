@@ -1,4 +1,5 @@
 eslint
+openjdk
 git
 yarn
 vim
@@ -7,8 +8,16 @@ sublime-text3
 dbeaver-community
 dropbox
 intellij-idea
+visual-studio-code
+visual-studio
 postman
 joplin
 google-chrome
 spotify
 firefox
+pgadmin4
+postgresql@16
+gradle
+anydesk
+gimp
+keeweb
